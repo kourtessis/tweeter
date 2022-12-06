@@ -21,15 +21,23 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
-  font-family: 'Source Sans Pro'; 
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
+  font-family: 'Source Sans Pro';
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
 }
+
 .logo {
-  font-family:"Bungee";
+  font-family: "Bungee";
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+.container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}

@@ -10,7 +10,8 @@ nav {
   padding-right: 1.5em;  
   position: fixed;
 }
-.logo {
+
+nav>span {
   font-family:"Bungee";
 }
 
