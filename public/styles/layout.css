@@ -5,8 +5,12 @@
  */
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -17,7 +21,13 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
-  font-size: 24px;
+  font-family: 'Source Sans Pro'; 
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+  font-family:"Bungee";
 }
 
 /*
