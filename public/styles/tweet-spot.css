@@ -29,7 +29,9 @@ header>div {
 header>div>i {
   padding-left: 15px;
 }
-
+header span {
+  padding:10px;
+}
 footer {
   padding-bottom: 10px;
 }

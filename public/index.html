@@ -56,7 +56,7 @@
   <main class="container">
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
-      <form method="POST" action="/tweets">
+      <form method="POST" action="/tweets" id="tweet-form">
         <div class="tweet-form">
           <label for="tweet-text"></label>
           <textarea class="tweet-form input" name="text" id="tweet-text"
@@ -70,12 +70,12 @@
     </section>
 
 
-    <section class="tweet-spot">
-      <article>
+    <section id="tweet-container">
+      <article class="tweet-spot">
         <header>
           <div>
             <img src="/images/male.png">
-            <i>Fabio</i>
+            <span>Fabio</span>
           </div>
           <div>
             <i><strong>@fabio</strong></i>
