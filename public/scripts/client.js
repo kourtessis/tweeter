@@ -10,6 +10,12 @@ $(document).ready(function() {
   $form.on('submit', tweetSubmitted);
 
 });
+const escape = function (str) {
+  let div = document.createElement("div");
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+};
+
 
 const tweetSubmitted = (event) => {
   event.preventDefault();
@@ -52,7 +58,7 @@ const createTweetElement = function(tweetObj) {
       <i><strong>${handle}</strong></i>
     </div>
   </header>
-  <p>${text}</p>
+  <p>${escape(text)}</p>
   <footer>
     <hr>
     <div>
