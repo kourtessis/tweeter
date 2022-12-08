@@ -1,7 +1,4 @@
-.tweet-spot {
-  /* display:flex; */
-  /* flex-direction: column;
-  align-items: flex-start; */
+article {
   border: 5px solid #545149;
   margin-top: 30px;
 }
@@ -61,7 +58,7 @@ padding: 10px;
   align-self: flex-start;
 }
 
-.tweet-spot:hover {
+article:hover {
   box-shadow: 5px 5px #87847e;
 }
 
@@ -73,5 +70,4 @@ padding: 10px;
  }
  .fa-heart:hover {
   color:olive
-
  }
