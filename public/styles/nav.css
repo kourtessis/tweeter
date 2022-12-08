@@ -14,12 +14,15 @@ nav {
 nav>span {
   font-family:"Bungee";
 }
-
+nav>div>i {
+  color: firebrick;
+}
 .header-right{
   display:flex;
   flex-direction: column;
   align-items: center;
 }
+
 /* 120 pixels in height
 Full width of the viewport
 #4056A1 as its default background colour
