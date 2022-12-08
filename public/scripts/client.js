@@ -14,7 +14,13 @@ $(document).ready(function() {
 const tweetSubmitted = (event) => {
   event.preventDefault();
   const result = $('#tweet-form').serialize();
-  ///validation if statements - don't forget return line 
+  if(!$('#tweet-text').val()) {
+    return alert('Invalid Submission')
+  }
+  if($('#tweet-text').val().length > 140 ) {
+    return alert('Message exceeds limit')
+  }
+
   $.post('/tweets', result, () => {
     loadTweets();
   });
