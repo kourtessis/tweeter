@@ -14,10 +14,6 @@ html {
   box-sizing: inherit;
 }
 
-/*
- * Global layout stuff
- */
-
 body {
   color: #545149;
   background-color: #f4f1ec;
@@ -31,10 +27,6 @@ body {
   font-family: "Bungee";
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
-
 .container {
   display: flex;
   width: 90%;
@@ -47,7 +39,6 @@ body {
   color: firebrick;
 }
 
-/* Responsive scale up for computer screens */
 @media (min-width: 768px) {
   body {
     flex-direction: row;

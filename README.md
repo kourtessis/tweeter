@@ -15,4 +15,14 @@ This repository is the starter code for the project: Students will fork and clon
 ## Dependencies
 
 - Express
+- Body-parser
+- Chance
+- Mocha
+- Chai
 - Node 5.10.x or above
+
+## Final Product
+
+!["This is a screenshot of the edit page"](https://github.com/kourtessis/tinyApp/blob/main/docs/editPage.png?raw=true)
+!["This is a screenshot of the main URL page once logged in"](https://github.com/kourtessis/tinyApp/blob/main/docs/mainURLPage.png?raw=true)
+!["This is a screenshot of the added URLs"](https://github.com/kourtessis/tinyApp/blob/main/docs/myURLwithSamples.png?raw=true)

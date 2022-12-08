@@ -20,7 +20,6 @@ header {
 header>div {
   display: flex;
   align-items: center;
-  /* color: rgb(179, 173, 173); */
 }
 
 header>div>i {
