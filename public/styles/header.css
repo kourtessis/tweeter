@@ -9,3 +9,17 @@
   background-color: rgb(225, 158, 77);
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
+
+@media (min-width: 768px){
+  .page-header{
+    margin-left: 2%;
+    border-radius: 5%;
+    margin-top: 140px;
+    float:left;
+    width: 30%;
+  }
+  .new-tweet{
+    float:right;
+    width:70%;
+  }
+}
