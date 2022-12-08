@@ -21,8 +21,11 @@ This repository is the starter code for the project: Students will fork and clon
 - Chai
 - Node 5.10.x or above
 
-## Final Product
+## Final Product Screenshots
 
-!["This is a screenshot of the edit page"](https://github.com/kourtessis/tinyApp/blob/main/docs/editPage.png?raw=true)
-!["This is a screenshot of the main URL page once logged in"](https://github.com/kourtessis/tinyApp/blob/main/docs/mainURLPage.png?raw=true)
-!["This is a screenshot of the added URLs"](https://github.com/kourtessis/tinyApp/blob/main/docs/myURLwithSamples.png?raw=true)
+!["This is a screenshot of the main mobile page"](https://github.com/kourtessis/tweeter/blob/master/docs/mobilePage.png?raw=true)
+!["This is a screenshot of the main desktop page"](https://github.com/kourtessis/tweeter/blob/master/docs/desktopPage.png?raw=true)
+!["This is a screenshot of the empty characters error"](https://github.com/kourtessis/tweeter/blob/master/docs/emptySubmit.png?raw=true)
+!["This is a screenshot of the too many characters error"](https://github.com/kourtessis/tweeter/blob/master/docs/tooManyChar.png?raw=true)
+!["This is a screenshot of a successful submitted tweet"](https://github.com/kourtessis/tweeter/blob/master/docs/submittedTwitter.png?raw=true)
+
